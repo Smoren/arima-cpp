@@ -19,7 +19,6 @@ private:
     Eigen::VectorXd last_observations;
     Eigen::VectorXd last_residuals;
     Eigen::VectorXd original_series;
-    std::default_random_engine generator;
 
     static Eigen::VectorXd difference(const Eigen::VectorXd& series, int n);
 
